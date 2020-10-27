@@ -127,6 +127,7 @@ class PhpAT70 < Formula
       --enable-sysvshm
       --enable-wddx
       --enable-zip
+      --enable-debug
       --with-apxs2=#{Formula["httpd"].opt_bin}/apxs
       --with-bz2#{headers_path}
       --with-curl=#{Formula["curl-openssl"].opt_prefix}
